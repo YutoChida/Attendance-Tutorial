@@ -13,7 +13,7 @@ class SessionsController < ApplicationController
     flash.now[:danger] = '認証に失敗しました。'
     render :new
   end
-end
+  end
 
   def destroy
   # ログイン中の場合のみログアウト処理を実行します。
